@@ -13,15 +13,3 @@ g++ -std=c++17 -o tictactoe main.cpp
 ```
 
 You need a C++ compiler such as g++ (MinGW on Windows) or clang++.
-
-## What I practiced
-- Reading and validating user input
-- Arrays/vectors and loops
-- Functions and a game loop
-- A simple computer opponent (win, block, take the center, else random)
-- Random numbers with `rand()`
-
-## Ideas to extend it
-- Keep score across rounds
-- Let the player choose X or O, or who goes first
-- Make the computer unbeatable with the minimax algorithm
